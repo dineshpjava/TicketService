@@ -15,7 +15,7 @@ C:\{classpath*}\TicketService\target>javac -jar "TicketService-0.0.1.jar 10
 The above command creates 10 customer threads to serve the customers
 
 ---- BUILD AND RUN JUNIT TEST CASES ON THE COMMAND LINE ----
-•	Go to the TicketService location in the command line
+Go to the TicketService location in the command line
 C:\{classpath*}\TicketService>
 •	To build the Junit give the following commands
 C:\{classpath*}\TicketService>mvn test
