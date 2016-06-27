@@ -4,15 +4,15 @@ ReadMe
 This README file explains how to use the TicketService Application
 
 ---- BUILD AND RUN APPLICATION ON THE COMMAND LINE ----
-•	Firstly, download and add maven to classpath
-•	Go to the TicketService location in the command line
+Firstly, download and add maven to classpath.
+Go to the TicketService location in the command line
 C:\{classpath*}\TicketService>
-•	TicketService should have the maven's pom file. The pom file has all the dependencies and build configurations set up. Just run the following commond
+TicketService should have the maven's pom file. The pom file has all the dependencies and build configurations set up. Just run the following commond 
 C:\{classpath*}\TicketService>mvn clean install
-•	The above command builds successfully. In the target directory a executeable jar file with name "TicketService-0.0.1" is created. 
-•	To execute the jar file give the following command along with command line variable {number of customer threads to be run}
+The above command builds successfully. In the target directory a executeable jar file with name "TicketService-0.0.1" is created. 
+To execute the jar file give the following command along with command line variable {number of customer threads to be run}
 C:\{classpath*}\TicketService\target>javac -jar "TicketService-0.0.1.jar 10
-•	The above command creates 10 customer threads to serve the customers
+The above command creates 10 customer threads to serve the customers
 
 ---- BUILD AND RUN JUNIT TEST CASES ON THE COMMAND LINE ----
 •	Go to the TicketService location in the command line
